@@ -31,4 +31,12 @@ describe("Movie Unit Tests", () => {
       });
       
     });
+
+    describe("get Movies", function () {
+      it("should successfully get movieby id", async () =>  {
+        const result = await request.get("movie/4");
+        expect(result.statusCode).equal(200);
+      });
+      
+    });
   });
