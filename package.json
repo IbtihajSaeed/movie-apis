@@ -1,0 +1,23 @@
+{
+  "name": "genere-apis",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha './app/test/*.test.js' --timeout 10000"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mocha": "^10.0.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.0.2",
+    "nodemon": "^2.0.16",
+    "sequelize": "^5.21.2",
+    "supertest": "^6.2.3"
+  }
+}
